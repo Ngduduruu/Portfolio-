@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Comments</title>
+        <link rel="stylesheet" href="websystems.css">
+</head>
+
+<body>
+    <header>
+        <h1>Web System Assignment</h1>
+        <div class="nav">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="past.html">Past</a>
+            <a href="future.html">Future</a>
+            <a href="comments.html" class="active">Comments</a>
+        </nav>
+        </div>
+    </header>
+
+
+    <main class="container">
+
+        <div class="content">
+            <article>
+
+            <h2> Overview 💬</h2>
+            <p> This page serves as a comment section for the website. It includes sections and part by part 
+                comments on the code of the html pages. The main takeaways are aesthetic choices, design decisions and code implementation. 
+                Furthermore, I've mentioned acessibility considerations that I have taken into account while creating the pages. 
+                Not to mention, I provided a further statement on the authentication of the content and the sources using cross-checking websites 
+                to ensure the structure of the webpage is valid.  
+            </p>
+        </article>
+        </div>
+
+        
+        <div class="content">
+            <article>
+            <h2> Structure of Website📝</h2>
+            <p> The website consists of four pages of html files and one CSS file. This section will be seperated into two parts: <strong>HTML </strong> and <strong>CSS</strong> structure.</p>
+            <table> 
+                <tr>
+                    <th>Filename</th>
+                    <th>File Type</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>index.html</td>
+                    <td>HTML</td>
+                    <td>The home page of the website. States a brief introduction to the website and about the user. 
+                        This page serves as a landing page for the website and navigates to the other pages.
+                    </td>
+                </tr>
+                <tr>
+                    <td>past.html</td>
+                    <td>HTML</td>
+                    <td>Description of my past computing experience</td>
+                </tr>
+                <tr>
+                    <td>future.html</td>
+                    <td>HTML</td>
+                    <td>Description of my future goals with computing in the future.</td>
+                </tr>
+                <tr>
+                    <td>comments.html</td>
+                    <td>HTML</td>
+                    <td>A detailed explanation of the website's structure and design methodology.</td>
+                </tr>
+                <tr>
+                    <td>websystems.css</td>
+                    <td>CSS</td>
+                    <td>Stylesheet for the website, refining the visual aspect of the website.</td>
+                </tr>
+            </table>
+            <h3> HTML Structure </h3>
+            <p> The HTML structure is the main framework of the website using the standard markup language, organising content into semantic elements like headers, navigation, body, sections, and footers.
+                The webpage is declared as a standardised HTML5 document using the <!-- <!DOCTYPE html> --> declaration at the beginning of the file. 
+                A more detailed breakdown of the structure is as follows:
+            </p>
+            <h4> a. header </h4>
+            <p> 
+                The header section is defined using the <code>&lt;header&gt;</code> tag, which contains a heading element <code>&lt;h1&gt;</code> that displays the title of the website. 
+                The title is displayes as "Web System Assignment". The website title is written using the <code>&lt;title&gt;</code> tag in the <code>&lt;header&gt;</code> section.
+                Below the title, there is a navigation bar that allows users to navigate to different pages of the website.
+                The navibation bar is created using the <code>&lt;nav&gt;</code> tag and contains links that are labelled as "Home", "Past", "Future" and "Comments". 
+                Users can click on these links to navigate to the respective pages. The section is designed to be consistent across all pages of the website, providing a seamless user experience.
+            </p>
+
+            <h4> b. nav </h4>
+            <p>
+                The navigation section is defined using the <code>&lt;nav&gt;</code> tag, which contains a list of links to the different pages of the website. 
+                    This section is typically used to provide easy access to the main sections of the website. Users can access the Home, Past, Futute and Comments tab page 
+                    through the navigation bar by clicking on the respective links. The <code>&lt;a&gt;</code> tag is used to create hyperlinks to the different pages, and the <code>href</code> attribute specifies the URL of the page that the link goes to.
+            </p>
+
+            <h4> c. main </h4>
+            <p>
+                The main content section is defined using the <code>&lt;main&gt;</code> tag, which contains the unique content for each page. 
+                This section is where the main information and content of the webpage is displayed. Each page has its own unique content that is relevant
+                to the title of the page. For example, the Home page contains an introduction and some fun facts about me, while the Past and Future pages contain information about my past experience and future goals in computing, respectively.
+                The content is structured using various HTML tags, such as <code>&lt;h2&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;ul&gt;</code>, <code>&lt;li&gt;</code>, <code>&lt;table&gt;</code> and <code>&lt;article&gt;</code>. 
+                Using the <code>&lt;h2&gt;</code> tag to create subheadings within the main content and the <code>&lt;p&gt;</code> tag to create paragraphs of text. 
+                The content is organised in a way that is easy to read and navigate, providing a clear structure for users to follow. The <code>&lt;article&gt;</code> tag is used to encapsulate 
+                the subheadings and paragraphs within the <code>&lt;div&gt;</code> element.
+            </p>
+
+            <h4> d. footer </h4>
+            <p>
+                The footer section is defined using the <code>&lt;footer&gt;</code> tag, which contains copyright information. 
+                This section is typically used to provide additional information or links at the bottom of the webpage. In this case, it displays the copyright information for the website.
+            </article>
+
+            <h3> Other HTML Attributes </h3>
+            <p>
+                In addition to the main structural tags, there are also other HTML attributes used in the code. 
+            </p>
+            <table>
+                <tr>
+                    <th>Attribute</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>lang</td>
+                    <td>Specifies the language of the content in the HTML document. In this case, it is set to "en" for English.</td>
+                </tr>
+                <tr>
+                    <td>href</td>
+                    <td>Used in anchor tags to specify the URL of the page the link goes to.</td>
+                </tr>
+                <tr>
+                    <td>target</td>
+                    <td>Used in anchor tags to specify where to open the linked document.</td>
+                </tr>
+                <tr>
+                    <td>class</td>
+                    <td>Used to specify a class for an HTML element, which can be used for styling purposes in CSS.</td>
+                </tr>
+                <tr>
+                    <td>id</td>
+                    <td>Used to specify a unique identifier for an HTML element, which can be used for CSS styling purposes.</td>
+                </tr>
+                <tr>
+                    <td>img</td>
+                    <td>Used in image tags to specify the source of the image file.</td>
+                </tr>
+                <tr>
+                    <td>alt</td>
+                    <td>Used in image tags to provide alternative text for the image for accessibility purposes.</td>
+                </tr>
+            </table>
+            </article>
+
+        </div>
+
+        </article>
+
+        <div class="content"> 
+            <article>
+            <h2> CSS Structure 🎨</h2>
+            <p>
+                The design and styling of the website is defined using the CSS file, which is linked to the HTML files using the <code>&lt;link&gt;</code> tag in the <code>&lt;head&gt;</code> section.
+                The CSS file contains various styles and rules that define the visual appearance of the website.
+                Each section contains specific styles that are applied to the respective elements in the HTML files. For example, the header section contains styles for the <code>&lt;header&gt;</code> tag, while the navigation section contains styles for the <code>&lt;nav&gt;</code> tag.
+                The CSS file also includes styles for specific classes and IDs that are used in the HTML files.     
+            </p>
+
+            <h3> Font Style and Size </h3>
+            <p>
+                The font style used in the website is defined using the <code>font-family</code> property in CSS. 
+                The font used is "Arial, sans-serif", which is a common and widely supported font that provides a clean and modern look to the website. 
+                The font size is defined using the <code>font-size</code> property, ensuring that the text is appropriately sized for readability across different devices and browsers.
+                This particular font choice and size contribute to the overall aesthetic and readability of the website while maintaning a modern and elegant look.
+            </p>
+
+            <h3> Color Scheme </h3>
+            
+                <img class="colour-scheme" src="Screenshot 2026-04-18 172828.png" alt="colour scheme">
+                <p>
+                    The color scheme of the website is defined using various CSS properties such as <code>background-color</code>, <code>color</code>, and <code>border-color</code>. 
+                    The website features a combination of neutral colour palettes such as white, gray, and beige, with accents of brown and black. 
+                    The colour scheme represents a sense of elegance that highlights the whites by evoking cleanliness, sophistication and simplicity. The use of neutral colors also allows the content to stand out and be easily readable, while the accents of brown and black add a touch of warmth and contrast to the overall design. 
+                    The use of contrasting colors for text and background ensures that the content is easily readable and visually appealing. To achieve a perfect contrast ratio of a minimum of 6:1, 
+                    this <a href="https://webaim.org/resources/contrastchecker/" target="_blank">contrast checker</a> is used to ensure that the color choices meet accessibility standards.               
+                </p>
+            
+            <h3> Layout and Design </h3>
+            <p>
+                The layout and design of the website is defined using various CSS properties such as <code>display</code>, <code>flex</code>, <code>margin</code>, and <code>padding</code>. 
+                The website uses a responsive design that adapts to different screen sizes and devices. 
+                The use of flexbox allows for a flexible and dynamic layout that can adjust to the content and screen size. 
+                The use of margins and padding helps to create a visually appealing and well-structured layout that enhances the user experience.
+                The table elements are styled to follow the core design principles of minimalism, with alternating row colors for better readability.
+            </p>
+
+            <h3> Accessibility Considerations </h3>
+            <p>
+                Accessibility is an important aspect of web design, some several considerations have been taken into account to ensure that the website is accessible to all users. 
+                This includes using semantic HTML tags to provide structure and meaning to the content, providing alternative text for images using the <code>alt</code> attribute, and ensuring that the color contrast is sufficient for users with visual impairments. 
+                Additionally, I have used responsive design techniques to ensure that the website is usable on different devices and screen sizes, which can benefit users with various accessibility needs.
+            </p>
+            <h3> Transition </h3>
+                <img class="transition-code" src="Screenshot 2026-04-18 172702.png" alt="transition">
+            <p>
+                To enhance the user experience, I have implemented smooth transition effects for the links on the navigation bar.
+                This is achieved using the <code>transition</code> property in CSS, which allows for a gradual change in styles when a user interacts with an element. 
+                For example, when a user hovers over a link, the color may change into a slight shade of grey.  
+                If user is on the current page, the link will be highlighted with a different color to indicate the active state, providing a clear visual cue for navigation.
+                Besides that, a simple fade-in transtion is applied to the page when it loads. 
+            </p>
+            <h3> Validation of Work</h3>
+            <p>
+                To ensure the validity of the HTML and CSS code, I have used the <a href="https://validator.w3.org/" target="_blank">W3C Markup Validation Service</a> and the <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a>. 
+                These tools help to identify any errors or issues in the code and provide suggestions for improvement. 
+                By using these validation services, I can ensure that the website is built using best practices and adheres to web standards, which can improve the overall performance and compatibility of the website across different browsers and devices.
+            </p>
+
+        </article>
+        </div>
+    </main>
+
+    <div class="footer">
+        <footer>
+        <p id="copyright">&copy; 2026 Roger Ng Wen Xuan. All Rights Reserved.</p>
+        <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img class="validator" 
+                src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+        </a>
+        </p>
+       
+        </footer>
+    </div>
+
+</body>
+</html>
